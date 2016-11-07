@@ -17,3 +17,6 @@ new SmartAnchorLinks({
   selectors:pages
 });
 ```
+See the [demo]
+
+[demo] : <http://https://berezhnyk.github.io/SmartAnchorLinks>

@@ -8,15 +8,15 @@ Inctude the SmartAnchorLinks:
 
 Prepare your page selecors:
 ```sh
-var pages = [$('#page1'),$('#page2'),$('#page3'),$('#page4'),$('#page5'),];
+var pages = [$('#page1'),$('#page2'),$('#page3'),$('#page4'),$('#page5')];
 ```
 
-Create instance of SmartAnchorLinks:
+Create instance of SmartAnchorLinks on document ready:
 ```sh
-new SmartAnchorLinks({
-  selectors:pages
+$(document).ready(function () {
+  new SmartAnchorLinks({
+    selectors:pages
+  });
 });
 ```
-See the [demo]
-
-[demo] : <http://https://berezhnyk.github.io/SmartAnchorLinks>
+See the [demo](https://berezhnyk.github.io/SmartAnchorLinks)

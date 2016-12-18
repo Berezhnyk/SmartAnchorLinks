@@ -26,7 +26,7 @@ function SmartAnchorLinks(config) {
                     page = selector[0].id;
                 }
             });
-            history.pushState(null, null, '#' + page);
+            history.replaceState(null, null, '#' + page);
             setTimeout(function () {
                 waiting = false;
             }, 50);
